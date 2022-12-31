@@ -1,39 +1,63 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
+    /* justify-content: center; */
+    font-size: 1rem;
     background-color: gold;
+}
+
+/* main {
+    align-items: center;
+
+} */
+
+footer {
+    height: 3rem;
+    padding: 1rem;
+    color: black;
+    background-color: #f5fffa;
 }
 
 .hero {
     background-color: aqua;
 }
 
-section #bio {
-    background-color: blueviolet;
+.content {
+    height: 100vh;
+    display: flex block;
+    margin: 1rem;
+    /* background-color: mintcream; */
+    /* color: navy; */
 }
 
-section #work {
+.card, .smallcard {
+    background-color: blueviolet;
+    margin: 1em;
+}
+
+#bio {
     background-color: darkorange;
 }
 
-section #work {
+#work {
+    background-color: cornflowerblue;
+}
+
+#contact {
     background-color: lime;
 }
 
-.content {
-    background-color: mintcream;
-}
 
-.imgCard {
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+/* div,  */
+/* .imgCard { */
+    /* display: block flexbox; */
+    /* display: flex; */
+    /* content: "image"; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center center; */
+    /* } */
+    
+/* .bg-img-nature {
     background-image: url(https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
-}
+    background-size: cover;
 
-/* .bg-img-nature{
 } */
