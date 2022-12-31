@@ -1,25 +1,77 @@
+* {
+    box-sizing: border-box;
+}
 
-body {
+.nav-menu {
+    justify-content: space-between;
+    align-items: center;
+    padding: auto;
+    background: transparent;
+    border: 1em dotted darkorchid; 
+    color: white;
+    width: 100%;
+}
+
+.nav-menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 2em;
+    align-items: center;
+    margin: 100px 0px 30px;
+    gap: 1em;
+    list-style: none;
+}
+
+.nav-menu ul a {
+    padding: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: turquoise;
+    text-decoration: none;
+    transition: .2s ease;
+}
+
+.nav-menu ul a:hover {
+    color: darkorchid;
+}
+
+.hero {
+    background: midnightblue;
+    margin-left: 1em;
+}
+
+.name {
+    font-size: 4rem;
+    font-display: 1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 20%;
+}
+h1 span {
+    font-size: .6em;
+}
+.navbar {
+    height: 100vh;
+    display: inline-block;
     /* justify-content: center; */
+    align-items: center;
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+/* body {
+    justify-content: center;
     font-size: 1rem;
     background-color: gold;
-}
+} */
 
 /* main {
     align-items: center;
 
 } */
 
-footer {
-    height: 3rem;
-    padding: 1rem;
-    color: black;
-    background-color: #f5fffa;
-}
 
-.hero {
-    background-color: aqua;
-}
 
 .content {
     height: 100vh;
@@ -29,10 +81,6 @@ footer {
     /* color: navy; */
 }
 
-.card, .smallcard {
-    background-color: blueviolet;
-    margin: 1em;
-}
 
 #bio {
     background-color: darkorange;
@@ -46,6 +94,11 @@ footer {
     background-color: lime;
 }
 
+.card,
+.smallcard {
+    background-color: blueviolet;
+    margin: 1em;
+}
 
 /* div,  */
 /* .imgCard { */
@@ -56,8 +109,15 @@ footer {
     /* background-position: center center; */
     /* } */
     
-/* .bg-img-nature {
-    background-image: url(https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
-    background-size: cover;
-
-} */
+    /* .bg-img-nature {
+        background-image: url(https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+        background-size: cover;
+        
+    } */
+    footer p {
+        height: 20%;
+        padding: 1em;
+        color: beige;
+        background-color: #56eaa0;
+        border: 3px solid red;
+    }
