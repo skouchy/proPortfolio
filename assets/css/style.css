@@ -10,27 +10,25 @@ main {
 }
 
 .nav-menu {
-    height: 25vh;
+    height: 20vh;
+    height: 18vmin;
     width: 100vw;
-    border-bottom: 7px dotted whitesmoke;
-    border-top: 15px double rgb(73, 60, 159);
+    border-top: 7px dotted whitesmoke;
+    border-bottom: 15px double rgb(73, 60, 159);
     position: relative;
-    margin-bottom: 15vh;
+    margin-top: 6vh;
     justify-content: center;
 }
 
 .home {
     height: 100vh;
-    align-items: flex-end;
+    align-items: flex-start;
     display: flex;
     position: relative;
 }
- 
 
 h1 >*,
-.nav-menu,
-.avatar {
-    background-color: rgb(39, 38, 38, 50%);
+.nav-menu {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -38,23 +36,31 @@ h1 >*,
 }
 
 h1 {
-    border-style: ridge dotted dotted ridge;
+    border-style: dotted ridge ridge dotted;
+    border-width: 1vw;
     position: absolute;
-    bottom: 30vh;
-    left: 2%;
-    padding: 20px 20px 40px 20px;
+    align-self: center;
+    left: 2vw;
+    padding: 4%;
     z-index: 1;
-    font-size: 10vh;
+    font-size: 7vmax;
+    max-width: 390px;
+}
+
+.home>* {
+    background-color: rgb(39, 38, 38, 50%);
 }
 
 .name {
+    position: static;
     display: flex;
     flex-wrap: nowrap;
-    text-shadow: 30px;
+    text-shadow: 4px 3px hsl(248, 53%, 58%, 80%);
 }
 
 #first {
-    font-size: 120%;
+    font-size: 100%;
+    font-size: 80;
 }
 #last {
     font-size: .65em;
@@ -63,13 +69,14 @@ h1 {
 }
 
 .nav-menu ul {
-    border-style: dotted ridge ridge dotted;
+    border-style: ridge dotted dotted ridge;
+    border-width: 4px;
     display: inline-flex;
     list-style: none;
     position: absolute;
-    bottom: 15%;
-    margin-right: 15%;
-    padding: 10px;
+    top: 15%;
+    margin-right: 10%;
+    padding: 1%;
     background-color: rgb(39, 38, 38, 70%);
 }
 
@@ -89,25 +96,14 @@ h1 {
 .hero-img {
     justify-content: center;
     align-items: center;
-    background-image: url(/assets/images/nankoweep.jpg);
+    background-image: url(/assets/images/bigote.JPG);
     background-size: cover;
-    background-position: center center;
+    background-position: right bottom;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    width: 100%;
 }
 
-.avatar {
-    width: 25%;
-    min-width: 150px;
-    max-width: 350px;
-    position: absolute;
-    top: 5%;
-    left: 40%;
-    border-radius: 70px;
-    box-shadow: 0 0 15px 15px rgb(106, 90, 205, 60%);
-    order: 3;
-    
-}
  
 /* *****main content***** */
 
