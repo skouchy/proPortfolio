@@ -1,79 +1,101 @@
-* {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-}
-
-body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+main{
+    background-color: darkslategray;
+}
+
 footer{
     background-color:darkolivegreen;
 }
 
-main{
-    max-width: 95%;
-    margin: 25px auto 45px auto;
-    background-color: darkslategray;
-}
-
-header {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 15px 6% 15px 0;
+.hero-page {
     height: 100vh;
-
-}
-
-.hero-img {
     background-image: url(/assets/images/bigote.JPG);
     background-size: cover;
     background-position: right bottom;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    max-width: 100%;
+}
+
+#navbar {
+    display: inline-flex;
+    background-color: rgb(0, 0, 0, 60%);
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 2rem;
+    flex-direction: row;
+    width: 100%;
+}
+.name {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    font-size: 120%;
+}
+
+#last{
+    font-size: 70%;
+    justify-content: flex-end;
 }
 
 
-.content {
+#navbar a {
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+    
+} 
+    /* max-width: 100%; */
+
+/* .content {
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-between;
+    justify-content: space-between; */
     /* display: flex; */
     /* display: inline-flex; */
     /* flex-wrap: wrap; */
     /* flex-direction: row; */
     /* flex-direction: row; */
-}
+/* } */
 
-.content h2 {
-    /* text-align: right; */
+/* .content h2 {
     padding-right: 15px;
     border-right: 4px solid purple;
     font-size: 4vw;
     line-height: 1.1;
     display: flex;
     flex-wrap: wrap;
-    /* flex: 0 0 20%; */
-    /* align-items: stretch; */
     justify-content: flex-end;
-    /* grow shrink basis*/
-} 
-.content article {
+}  */
+/* text-align: right; */
+/* flex: 0 0 20%; */
+/* align-items: stretch; */
+/* grow shrink basis*/
+
+
+/* .content article {
     flex: 0 0 75%;
     margin: auto 0;
     /* align-items: center; */
     /* justify-content: center; */
     /* height: 100%; */
+    /* } */
     
-    
-    border:1px solid lime;
-}
+    /* border:1px solid lime; */
+ 
 
-.content article p, 
+/* .content article p, 
 .content article ul {
     height: 100%;
     background-color: midnightblue;
-}
+} */
