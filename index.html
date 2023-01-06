@@ -6,64 +6,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio de /Skouchy</title>
-    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <!-- <link rel="stylesheet" href="reset.css" /> -->
     <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 
 <body>
-    <header class="header-content">
-        <section class="hero-page">
-            <div class="hero-img">
-                <div class="home">
-                    <h1>
-                        <span class="name" id="first">S<em>o</em>lange</span>
-                        <span class="name" id="last">K<em>o</em>uchacji</span>
-                    </h1>
-                    <nav class="nav-menu">
-                        <ul class="links">
-                            <li><a href="#bio">Bi<em>o</em></a></li>
-                            <li><a href="#work">My W<em>o</em>rk</a></li>
-                            <li><a href="#contact">C<em>o</em>ntact</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-            <aside>
-                <p><em>from {river rat -->*to web dev...; }</em></p>
-            </aside>
-        </section>
+    <header class="header-content hero-img">
+        <!-- <section class="hero-page">
+            <div class="hero-img"> -->
+        <!-- <div class="home"> -->
+        <h1>
+            <span class="name" id="first">S<em>o</em>lange</span>
+            <span class="name" id="last">K<em>o</em>uchacji</span>
+        </h1>
+        <nav class="nav-menu">
+            <!-- <ul class="links"> -->
+            <a href="#bio">Bi<em>o</em></a>
+            <a href="#work">My W<em>o</em>rk</a>
+            <a href="#contact">C<em>o</em>ntact</a>
+            <!-- </ul> -->
+        </nav>
+        <!-- </div> -->
+        <!-- </div> -->
+        <!-- <aside>
+                <p><em>from {river rat to web dev...; }</em></p>
+            </aside> 
+        <!-- </section> -->
     </header>
 
     <main>
-        <!-- class="skouchy" -->
-        <!-- <div class="content" id="bio"> -->
-        <section class="me-page">
-            <!-- <header class="section-header"> -->
+        <section class="content" id="bio">
             <h2>Let's Talk About Me</h2>
             <!-- //*or h1*// -->
             <!-- </header> -->
             <article class="card" id="biocard">
+
                 <h3>hi.</h3>
-                <div>
-                    <p class="bio-text">
-                        Hi!👋 My name is Solange, however, people call me "Solo". I do a lot of things, and I love
-                        learning
-                        new things. I'm fresh out of earning my Massage Therapy License, but I'm onto a new avenue
-                        for
-                        onset Carpal Tunnel... Full Stack Web Development! As a coding bootcamp student throught the
-                        Denver
-                        University, I am working hard to achieve this new skill that is sure to breed the exercise
-                        my
-                        brain
-                        could use, and the freedom and flexibility and my soul needs.
-                    </p>
-                </div>
+                <p>
+                    Hi!👋 My name is Solange, however, people call me "Solo". I do a lot of things, and I love
+                    learning
+                    new things. I'm fresh out of earning my Massage Therapy License, but I'm onto a new avenue
+                    for
+                    onset Carpal Tunnel... Full Stack Web Development! As a coding bootcamp student throught the
+                    Denver
+                    University, I am working hard to achieve this new skill that is sure to breed the exercise
+                    my
+                    brain
+                    could use, and the freedom and flexibility and my soul needs.
+                </p>
+
             </article>
-            <!-- </section> -->
-            <!-- <section> -->
-            <!-- <header class="card-header"> -->
-            <!-- </header> -->
+
             <article class="card" id="favorites">
                 <h3>favorite thangz.</h3>
                 <!-- <div> -->
@@ -121,7 +115,7 @@
                 <!-- </div> -->
             </article>
         </section>
-        </div>
+        <!-- </div> -->
 
         <section class="content" id="work">
             <!-- <header class="section-header" id="pro"> -->
@@ -129,7 +123,41 @@
             <!-- </header> -->
 
             <div class="projects">
-                <article class="imgCard1" id="seo">
+                <a href="#" class="flex-item surf">
+                    <!-- max-height 150 min height 150 -->
+                    <!-- display flexend - flex-basis calc(50% - 1em)
+                    flex-item:first-child{min-height 400px}
+                flex-basis 100% -->
+                    <div>
+                        <h3>surf</h3>
+                        <span>stuff</span>
+                    </div>
+                </a>
+                <a href="#" class="flex-item surf">
+                    <div>
+                        <h3>surf</h3>
+                        <span>stuff</span>
+                    </div>
+                </a>
+                <a href="#" class="flex-item surf">
+                    <div>
+                        <h3>surf</h3>
+                        <span>stuff</span>
+                    </div>
+                </a>
+                <a href="#" class="flex-item surf">
+                    <div>
+                        <h3>surf</h3>
+                        <span>stuff</span>
+                    </div>
+                </a>
+                <a href="#" class="flex-item surf">
+                    <div>
+                        <h3>surf</h3>
+                        <span>stuff</span>
+                    </div>
+                </a>
+                <!-- <article class="imgCard1" id="seo">
                     <p>Lorem ipsum dolor</p>
                 </article>
 
@@ -144,23 +172,28 @@
                 </article>
                 <article class="imgCard4" id="tbd5">
                     <p>Lorem ipsum dolor</p>
-                </article>
+                </article> -->
             </div>
         </section>
         <!-- </div> -->
 
         <section class="content" id="contact">
             <!-- <header class="section-header" id="stalker"> -->
-            <article>
-                <h2>Stalk Me</h2>
-                <!-- </header> -->
-
-                <ul>
-                    <li>Github</li>
-                    <li>LinkedIn</li>
-                    <li>Gmail</li>
-                </ul>
-            </article>
+            <!-- <article> -->
+            <h2>Stalk Me</h2>
+            <!-- </header> -->
+            <div class="social">
+                    <a href="https://github.com/skouchy">
+                        <img src="./assets/images/github-mark-white.png" alt="Github"> 
+                    </a>
+                    <a href="https://www.linkedin.com/in/solangek/">
+                        <img src="./assets/images/[linked]in-Logo White-128@2x.png" alt="LinkedIn">
+                    </a>
+                    <a href="mailto:skouchy24@gmail.com">
+                        <img src="./assets/images/email logo white.png" alt="gmail">
+                    </a>
+                    
+            </div><!-- </article> -->
         </section>
     </main>
 
