@@ -1,17 +1,15 @@
-<!-- TODO: UPDATE FOR CURRENT CHALLENGE -->
 
-# Horiseon
+# proPortfolio
 This website is for a company called Horiseon which helps to manage client's SEO, online reputation, and social media marketing.
 
 ## Description
-I have refactored the HTML to be in semantic order, added semantic and screen readable attributes to meet accessibility standards, which include amended style sheet, and a descriptive title.
+An online portfolio created as a hub to store, display, and build on as I continue to develop my Web Development experiences through applications. I have built this page utilizing a variety of CSS properties including: a hero-background image, positional attributes, navigation links, hover effects, both flex and grid displays, color gradients, and so much more. "Good things take time". 
 
 ## Built With
 * HTML
 * CSS
 
 ## Link
-https://skouchy.github.io/01-HoriSEOn/
+
 
 ### Screenshot
-![skouchy github io_01-HoriSEOn_](https://user-images.githubusercontent.com/119292219/211183839-3437150f-7549-4844-8ad8-bea94bba638c.png)
