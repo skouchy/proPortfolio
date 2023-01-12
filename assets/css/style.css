@@ -19,12 +19,11 @@ footer {
 
 .hero {
     height: 100vh;
-    background-image: url(/assets/images/bigote.JPG);
+    background-image: url("/assets/images/bigote2.jpg") ;
     background-size: cover;
-    background-position: right bottom;
+    background-position: right bottom; 
     background-repeat: no-repeat;
     background-attachment: fixed;
-    width: 100%;
 }
 
 #navbar {
